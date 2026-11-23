@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StyleList>
+  <Style name="Label.eventProbe">
+    <StyleAttribute name="customWidget" value="eventProbe" />
+  </Style>
+</StyleList>

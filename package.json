@@ -1,0 +1,26 @@
+{
+  "name": "@fourjs/gbc-bdl-events",
+  "version": "0.1.0",
+  "description": "Events from a Genero BDL program to the code of a Genero Browser Client (GBC 6) customization, through a front call",
+  "keywords": [
+    "genero",
+    "gbc",
+    "gbc-customization",
+    "frontcall",
+    "events"
+  ],
+  "author": "mifo@4js.com",
+  "license": "UNLICENSED",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/BdlEvents.test.mjs"
+  },
+  "files": [
+    "index.js",
+    "js/"
+  ],
+  "publishConfig": {
+    "registry": "https://fourjs.jfrog.io/artifactory/api/npm/gbc-packages/"
+  }
+}

@@ -1,0 +1,15 @@
+LAYOUT (TEXT = "BDL events test")
+  GRID
+  {
+  Probe   [probe                                   ]
+  Status  [errorStatus ]
+  Message [errorText                               ]
+  }
+  END
+END
+
+ATTRIBUTES
+  LABEL probe       = FORMONLY.probe, STYLE = "eventProbe";
+  EDIT  errorStatus = FORMONLY.errorStatus TYPE INTEGER, NOENTRY;
+  EDIT  errorText   = FORMONLY.errorText TYPE VARCHAR, NOENTRY, SCROLL;
+END
