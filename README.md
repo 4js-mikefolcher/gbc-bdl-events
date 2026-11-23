@@ -183,3 +183,7 @@ session. With this package:
 | JavaScript | `session.when(name, (event, session, obj) => ...)`, kept in a member and never removed | `bdlEvents.on(name, (obj) => ..., { widget: this, application: ... })` |
 | Timing | 100 ms after the front call | as soon as GBC has processed the update |
 | Scope | every program of the session | the emitting program, when `application` is given |
+
+## License
+
+MIT, see `LICENSE`.

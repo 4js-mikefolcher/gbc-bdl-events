@@ -1,6 +1,6 @@
 {
   "name": "@fourjs/gbc-bdl-events",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Events from a Genero BDL program to the code of a Genero Browser Client (GBC 6) customization, through a front call",
   "keywords": [
     "genero",
@@ -10,7 +10,13 @@
     "events"
   ],
   "author": "mifo@4js.com",
-  "license": "UNLICENSED",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4js-mikefolcher/gbc-bdl-events.git"
+  },
+  "homepage": "https://github.com/4js-mikefolcher/gbc-bdl-events#readme",
+  "bugs": "https://github.com/4js-mikefolcher/gbc-bdl-events/issues",
   "type": "module",
   "main": "index.js",
   "scripts": {
